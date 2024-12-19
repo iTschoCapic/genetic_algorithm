@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public class Gameloop : MonoBehaviour
+public class LightAttack : Card
 {
-    public Card[] cards;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

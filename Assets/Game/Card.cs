@@ -9,7 +9,7 @@ enum CardType
     LoadHeavy
 }
 
-public class Card : MonoBehaviour
+public class Card : ScriptableObject
 {
     CardType type;
     int damages;
