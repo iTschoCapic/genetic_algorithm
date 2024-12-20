@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class LightAttack : Card
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    
+    public LightAttack(int damages) : base(damages)
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public new void Attack(PlayerStat player)
     {
-        
+        base.Attack(player);
+        Debug.Log("Light Attack : " + damages);
     }
 }

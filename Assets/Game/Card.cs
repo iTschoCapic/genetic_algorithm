@@ -1,18 +1,16 @@
 using UnityEngine;
 
-enum CardType
+public abstract class Card
 {
-    LightAttack,
-    HeavyAttack,
-    Shield,
-    Dodge,
-    LoadHeavy
-}
+    public int damages;
 
-public class Card : ScriptableObject
-{
-    CardType type;
-    int damages;
-    bool isLoaded;
+    public Card(int damages)
+    {
+        this.damages = damages;
+    }
 
+    public void Attack(PlayerStat player)
+    {
+        player.health -= damages;
+    }
 }
