@@ -16,6 +16,8 @@ public class Gameloop : MonoBehaviour
 
     public int lightAttackDamage, heavyAttackDamage;
 
+    public PlayerStat Player, IAStat;
+
     public SimpleIA ia;
 
     public int turn = 0;
@@ -28,6 +30,27 @@ public class Gameloop : MonoBehaviour
     public void NextTurn()
     {
         ia.Turn();
+
+        switch (Player.cards)
+        {
+            case Cards.Light:
+                if (IAStat.cards == Cards.Esquive) break;
+                Player.lightAttack.Attack(IAStat); break;
+            case Cards.Heavy:
+                if (IAStat.cards == Cards.Esquive) break;
+                Player.heavyAttack.Attack(IAStat); break;
+        }
+
+        switch (IAStat.cards)
+        {
+            case Cards.Light:
+                if (Player.cards == Cards.Esquive) break;
+                IAStat.lightAttack.Attack(Player); break;
+            case Cards.Heavy:
+                if (Player.cards == Cards.Esquive) break;
+                IAStat.heavyAttack.Attack(Player); break;
+        }
+
         turn++;
     }
 }

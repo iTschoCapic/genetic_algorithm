@@ -6,30 +6,43 @@ public class PlayerStat : MonoBehaviour
     public PlayerStat opponent;
 
 
-    LightAttack lightAttack;
-    HeavyAttack heavyAttack;
-    Esquive esquive;
+    public LightAttack lightAttack;
+    public HeavyAttack heavyAttack;
+
+    public Cards cards;
 
     private void Start()
     {
         health = 100;
         lightAttack = new LightAttack(Gameloop.instance.lightAttackDamage);
         heavyAttack = new HeavyAttack(Gameloop.instance.heavyAttackDamage);
-        esquive = new Esquive();
     }
 
     public void LightAttack()
     {
-        lightAttack.Attack(opponent);
+        cards = Cards.Light;
     }
 
     public void HeavyAttack()
     {
-        heavyAttack.Attack(opponent);
+        cards = Cards.Heavy;
     }
 
     public void Esquive()
     {
-        esquive.Attack(opponent);
+        cards = Cards.Esquive;
     }
+
+    public void Parade()
+    {
+        cards = Cards.Parade;
+    }
+}
+
+public enum Cards
+{
+    Light,
+    Heavy,
+    Esquive,
+    Parade
 }
