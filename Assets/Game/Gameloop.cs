@@ -34,21 +34,36 @@ public class Gameloop : MonoBehaviour
         switch (Player.cards)
         {
             case Cards.Light:
-                if (IAStat.cards == Cards.Parade) break;
-                Player.lightAttack.Attack(IAStat); break;
+                if (IAStat.cards == Cards.Parade)
+                {
+                    ia.fitness += 2;
+                    break;
+                }
+                Player.lightAttack.Attack(IAStat);
+                ia.fitness -= 3; break;
             case Cards.Heavy:
-                if (IAStat.cards == Cards.Esquive) break;
-                Player.heavyAttack.Attack(IAStat); break;
+                if (IAStat.cards == Cards.Esquive)
+                {
+                    ia.fitness += 2;
+                    break;
+                }
+                Player.heavyAttack.Attack(IAStat);
+                ia.fitness -= 3;
+                break;
         }
 
         switch (IAStat.cards)
         {
             case Cards.Light:
                 if (Player.cards == Cards.Parade) break;
-                IAStat.lightAttack.Attack(Player); break;
+                IAStat.lightAttack.Attack(Player);
+                ia.fitness += 5;
+                break;
             case Cards.Heavy:
                 if (Player.cards == Cards.Esquive) break;
-                IAStat.heavyAttack.Attack(Player); break;
+                IAStat.heavyAttack.Attack(Player);
+                ia.fitness += 5;
+                break;
         }
 
         turn++;

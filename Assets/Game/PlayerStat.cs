@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerStat : MonoBehaviour
 {
-    public int health = 100;
+    public float health = 100;
     public PlayerStat opponent;
 
 
