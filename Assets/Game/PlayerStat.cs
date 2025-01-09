@@ -2,40 +2,61 @@ using UnityEngine;
 
 public class PlayerStat : MonoBehaviour
 {
-    public int health = 100;
+    public int maxHealth = 100;
+    [SerializeField]
+    int health = 100;
     public PlayerStat opponent;
 
+    public bool heal;
 
-    public LightAttack lightAttack;
-    public HeavyAttack heavyAttack;
-
-    public Cards cards;
+    public Cards card;
 
     private void Start()
     {
-        health = 100;
-        lightAttack = new LightAttack(Gameloop.instance.lightAttackDamage);
-        heavyAttack = new HeavyAttack(Gameloop.instance.heavyAttackDamage);
+        health = maxHealth;
     }
 
     public void LightAttack()
     {
-        cards = Cards.Light;
+        card = Cards.Light;
     }
 
     public void HeavyAttack()
     {
-        cards = Cards.Heavy;
+        card = Cards.Charge;
     }
 
     public void Esquive()
     {
-        cards = Cards.Esquive;
+        card = Cards.Esquive;
     }
 
     public void Parade()
     {
-        cards = Cards.Parade;
+        card = Cards.Parade;
+    }
+
+    public void Heal()
+    {
+        card = Cards.Soin;
+    }
+
+    public void Damage(int damage)
+    {
+        health -= damage;
+        if(health >= maxHealth)
+        {
+            health = maxHealth;
+        }
+    }
+
+    public void NextTurn()
+    {
+        if (card == Cards.Charge)
+        {
+            card = Cards.Heavy;
+            Gameloop.instance.NextTurn();
+        }
     }
 }
 
@@ -44,5 +65,7 @@ public enum Cards
     Light,
     Heavy,
     Esquive,
-    Parade
+    Parade,
+    Charge,
+    Soin
 }

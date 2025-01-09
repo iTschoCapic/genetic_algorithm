@@ -694,9 +694,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6de7055ccd17b624998287e839a41b1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 50
   health: 100
   opponent: {fileID: 1021334237}
-  cards: 0
+  heal: 0
+  card: 0
 --- !u!4 &584697068
 Transform:
   m_ObjectHideFlags: 0
@@ -938,6 +940,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 584697067}
+        m_TargetAssemblyTypeName: PlayerStat, Assembly-CSharp
+        m_MethodName: Heal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1952194460}
         m_TargetAssemblyTypeName: Gameloop, Assembly-CSharp
         m_MethodName: NextTurn
@@ -1174,9 +1188,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6de7055ccd17b624998287e839a41b1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 50
   health: 100
   opponent: {fileID: 584697067}
-  cards: 0
+  heal: 0
+  card: 0
 --- !u!4 &1021334238
 Transform:
   m_ObjectHideFlags: 0
@@ -1558,6 +1574,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58a7e88406e7523409a1ad002c8bda87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attaqueSimpleDegat: 5
+  attaqueLourdeDegat: 12
+  healTurn1: 5
+  healTurn2: 3
   lightAttackDamage: 10
   heavyAttackDamage: 10
   Player: {fileID: 584697067}

@@ -1,9 +1,16 @@
 using UnityEngine;
+using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class Gameloop : MonoBehaviour
 {
 
     public static Gameloop instance;
+
+    public int attaqueSimpleDegat = 5;
+    public int attaqueLourdeDegat = 12;
+    public int healTurn1 = 5;
+    public int healTurn2 = 3;
 
     private void Awake()
     {
@@ -29,28 +36,39 @@ public class Gameloop : MonoBehaviour
 
     public void NextTurn()
     {
-        ia.Turn();
 
-        switch (Player.cards)
+        PlayTurn(Player);
+
+        Player.NextTurn();
+    }
+
+    private void PlayTurn(PlayerStat stat)
+    {
+        Debug.Log(stat.name + " " + stat.card);
+
+        if (stat.heal)
         {
-            case Cards.Light:
-                if (IAStat.cards == Cards.Parade) break;
-                Player.lightAttack.Attack(IAStat); break;
-            case Cards.Heavy:
-                if (IAStat.cards == Cards.Esquive) break;
-                Player.heavyAttack.Attack(IAStat); break;
+            sendDamage(stat, -1 * healTurn2);
+            stat.heal = false;
         }
 
-        switch (IAStat.cards)
+        switch (stat.card)
         {
             case Cards.Light:
-                if (Player.cards == Cards.Parade) break;
-                IAStat.lightAttack.Attack(Player); break;
+                if (stat.opponent.card == Cards.Parade) break;
+                sendDamage(stat.opponent, attaqueSimpleDegat); break;
             case Cards.Heavy:
-                if (Player.cards == Cards.Esquive) break;
-                IAStat.heavyAttack.Attack(Player); break;
+                if (stat.opponent.card == Cards.Esquive) break;
+                sendDamage(stat.opponent, attaqueLourdeDegat); break;
+            case Cards.Soin:
+                sendDamage(stat, -1 * healTurn1);
+                stat.heal = true;
+                break;
         }
+    }
 
-        turn++;
+    private void sendDamage(PlayerStat stat, int damage)
+    {
+        stat.Damage(damage);
     }
 }

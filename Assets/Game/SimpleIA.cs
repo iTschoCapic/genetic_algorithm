@@ -11,14 +11,22 @@ public class SimpleIA : MonoBehaviour
 
     public void Turn()
     {
-        int n = Random.Range(0, 3);
-        switch (n)
+        if(stat.card == Cards.Charge)
         {
-            case 0: stat.LightAttack(); break;
-            case 1: stat.HeavyAttack(); break;
-            case 2: stat.Esquive(); break;
-            case 3: stat.Parade(); break;
-            default: break;
+            stat.card = Cards.Heavy;
+        }
+        else
+        {
+            int n = Random.Range(0, 5);
+            switch (n)
+            {
+                case 0: stat.LightAttack(); break;
+                case 1: stat.HeavyAttack(); break;
+                case 2: stat.Esquive(); break;
+                case 3: stat.Parade(); break;
+                case 4: stat.Heal(); break;
+                default: break;
+            }
         }
     }
 }
