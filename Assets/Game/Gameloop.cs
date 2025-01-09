@@ -34,7 +34,7 @@ public class Gameloop : MonoBehaviour
         switch (Player.cards)
         {
             case Cards.Light:
-                if (IAStat.cards == Cards.Esquive) break;
+                if (IAStat.cards == Cards.Parade) break;
                 Player.lightAttack.Attack(IAStat); break;
             case Cards.Heavy:
                 if (IAStat.cards == Cards.Esquive) break;
@@ -44,7 +44,7 @@ public class Gameloop : MonoBehaviour
         switch (IAStat.cards)
         {
             case Cards.Light:
-                if (Player.cards == Cards.Esquive) break;
+                if (Player.cards == Cards.Parade) break;
                 IAStat.lightAttack.Attack(Player); break;
             case Cards.Heavy:
                 if (Player.cards == Cards.Esquive) break;

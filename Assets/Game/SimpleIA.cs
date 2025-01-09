@@ -17,6 +17,7 @@ public class SimpleIA : MonoBehaviour
             case 0: stat.LightAttack(); break;
             case 1: stat.HeavyAttack(); break;
             case 2: stat.Esquive(); break;
+            case 3: stat.Parade(); break;
             default: break;
         }
     }
