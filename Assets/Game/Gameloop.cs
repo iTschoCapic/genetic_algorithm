@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using TMPro;
 
 public class Gameloop : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class Gameloop : MonoBehaviour
     public int attaqueLourdeDegat = 12;
     public int healTurn1 = 5;
     public int healTurn2 = 3;
+
+    public GameObject PanelList;
+    public GameObject PanelText;
 
     private void Awake()
     {
@@ -68,6 +72,10 @@ public class Gameloop : MonoBehaviour
     private void Preparation(PlayerStat stat)
     {
         cardsRecord.Add(stat.card.ToString());
+
+        GameObject obj = Instantiate(PanelText, PanelList.transform);
+        obj.GetComponent<TextMeshProUGUI>().text = stat.card.ToString();
+
         if (stat.card != Cards.Charge) turnPlay++;
 
         if (turnPlay >= turnToPlay) etape = etapes.Jeu;
