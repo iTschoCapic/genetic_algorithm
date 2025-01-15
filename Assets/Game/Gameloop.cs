@@ -5,7 +5,13 @@ using System.Collections.Generic;
 public class Gameloop : MonoBehaviour
 {
 
+    public etapes etape;
+    public int turnToPlay = 20;
+    int turnPlay = 0;
+
     public static Gameloop instance;
+
+    public List<string> cardsRecord = new List<string>();
 
     public int attaqueSimpleDegat = 5;
     public int attaqueLourdeDegat = 12;
@@ -52,6 +58,23 @@ public class Gameloop : MonoBehaviour
             stat.heal = false;
         }
 
+        switch (etape)
+        {
+            case etapes.Preparation: Preparation(stat); break;
+            default: break;
+        }
+    }
+
+    private void Preparation(PlayerStat stat)
+    {
+        cardsRecord.Add(stat.card.ToString());
+        if (stat.card != Cards.Charge) turnPlay++;
+
+        if (turnPlay >= turnToPlay) etape = etapes.Jeu;
+    }
+
+    private void Jeu(PlayerStat stat)
+    {
         switch (stat.card)
         {
             case Cards.Light:
@@ -71,4 +94,10 @@ public class Gameloop : MonoBehaviour
     {
         stat.Damage(damage);
     }
+}
+
+public enum etapes
+{
+    Preparation,
+    Jeu
 }
