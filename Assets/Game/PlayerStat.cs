@@ -55,7 +55,7 @@ public class PlayerStat : MonoBehaviour
         if (card == Cards.Charge)
         {
             card = Cards.Heavy;
-            Gameloop.instance.NextTurn();
+            //Gameloop.instance.NextTurn();
         }
     }
 }

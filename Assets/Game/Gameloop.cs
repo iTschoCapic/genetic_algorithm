@@ -1,111 +1,73 @@
-using UnityEngine;
-using UnityEngine.UI;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
 
-public class Gameloop : MonoBehaviour
+
+public class DeckBuilder : MonoBehaviour
 {
+    public Button normalAttackButton;
+    public Button heavyAttackButton;
+    public Button dodgeButton;
+    public Button shieldButton;
+    public Button healButton;
+    public TextMeshProUGUI deckStatusText;
+    public Button submitDeckButton;
 
-    public etapes etape;
-    public int turnToPlay = 20;
-    int turnPlay = 0;
-
-    public static Gameloop instance;
-
-    public List<string> cardsRecord = new List<string>();
-
-    public int attaqueSimpleDegat = 5;
-    public int attaqueLourdeDegat = 12;
-    public int healTurn1 = 5;
-    public int healTurn2 = 3;
-
-    public GameObject PanelList;
-    public GameObject PanelText;
-
-    private void Awake()
-    {
-        if(instance != null)
-        {
-            Debug.LogError("Il y a plusieurs instance de GameLoop dans la scene");
-        }
-        instance = this;
-    }
-
-    public int lightAttackDamage, heavyAttackDamage;
-
-    public PlayerStat Player, IAStat;
-
-    public SimpleIA ia;
-
-    public int turn = 0;
+    [SerializeField]
+    private List<Card> playerDeck;
+    private const int MaxDeckSize = 20;
 
     void Start()
     {
-        turn = 0;
+        playerDeck = new List<Card>();
+
+        normalAttackButton.onClick.AddListener(() => AddCardToDeck(ActionType.NormalAttack));
+        heavyAttackButton.onClick.AddListener(() => AddCardToDeck(ActionType.HeavyAttack));
+        dodgeButton.onClick.AddListener(() => AddCardToDeck(ActionType.Dodge));
+        shieldButton.onClick.AddListener(() => AddCardToDeck(ActionType.Shield));
+        healButton.onClick.AddListener(() => AddCardToDeck(ActionType.Heal));
+
+        submitDeckButton.onClick.AddListener(SubmitDeck);
+        UpdateDeckStatus();
     }
 
-    public void NextTurn()
+    private void AddCardToDeck(ActionType actionType)
     {
-
-        PlayTurn(Player);
-
-        Player.NextTurn();
-    }
-
-    private void PlayTurn(PlayerStat stat)
-    {
-        Debug.Log(stat.name + " " + stat.card);
-
-        if (stat.heal)
+        if (playerDeck.Count >= MaxDeckSize)
         {
-            sendDamage(stat, -1 * healTurn2);
-            stat.heal = false;
+            Debug.Log("Deck is already full!");
+            return;
         }
 
-        switch (etape)
+        playerDeck.Add(new Card(actionType));
+        Debug.Log($"Added {actionType} to the deck.");
+        UpdateDeckStatus();
+    }
+
+    private void UpdateDeckStatus()
+    {
+        deckStatusText.text = $"Deck Size: {playerDeck.Count}/{MaxDeckSize}";
+
+        // Optionally disable buttons if the deck is full
+        bool deckIsFull = playerDeck.Count >= MaxDeckSize;
+        normalAttackButton.interactable = !deckIsFull;
+        heavyAttackButton.interactable = !deckIsFull;
+        dodgeButton.interactable = !deckIsFull;
+        shieldButton.interactable = !deckIsFull;
+        healButton.interactable = !deckIsFull;
+    }
+
+    private void SubmitDeck()
+    {
+        if (playerDeck.Count < MaxDeckSize)
         {
-            case etapes.Preparation: Preparation(stat); break;
-            default: break;
+            Debug.Log("Your deck is incomplete! Please select 20 cards.");
+            return;
         }
+
+        Debug.Log("Deck submitted successfully!");
+        // Pass the deck to the game manager or combat system
+        GameManager.Instance.SetPlayerDeck(playerDeck);
     }
-
-    private void Preparation(PlayerStat stat)
-    {
-        cardsRecord.Add(stat.card.ToString());
-
-        GameObject obj = Instantiate(PanelText, PanelList.transform);
-        obj.GetComponent<TextMeshProUGUI>().text = stat.card.ToString();
-
-        if (stat.card != Cards.Charge) turnPlay++;
-
-        if (turnPlay >= turnToPlay) etape = etapes.Jeu;
-    }
-
-    private void Jeu(PlayerStat stat)
-    {
-        switch (stat.card)
-        {
-            case Cards.Light:
-                if (stat.opponent.card == Cards.Parade) break;
-                sendDamage(stat.opponent, attaqueSimpleDegat); break;
-            case Cards.Heavy:
-                if (stat.opponent.card == Cards.Esquive) break;
-                sendDamage(stat.opponent, attaqueLourdeDegat); break;
-            case Cards.Soin:
-                sendDamage(stat, -1 * healTurn1);
-                stat.heal = true;
-                break;
-        }
-    }
-
-    private void sendDamage(PlayerStat stat, int damage)
-    {
-        stat.Damage(damage);
-    }
-}
-
-public enum etapes
-{
-    Preparation,
-    Jeu
 }
