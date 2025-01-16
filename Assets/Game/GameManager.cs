@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+    public IA_Genetique ia;
 
     private List<Card> playerDeck;
 
@@ -24,10 +25,20 @@ public class GameManager : MonoBehaviour
     {
         playerDeck = deck;
         Debug.Log("Player deck has been set!");
+        ia.RunGeneticAlgorithm();
     }
 
     public List<Card> GetPlayerDeck()
     {
         return playerDeck;
+    }
+
+    public Deck GetPlayerDeckAsDeck()
+    {
+        if (playerDeck == null || playerDeck.Count == 0)
+        {
+            Debug.Log("Player deck is empty or not set!");
+        }
+        return new Deck(playerDeck);
     }
 }

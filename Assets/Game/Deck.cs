@@ -9,6 +9,11 @@ public class Deck
         Cards = new List<Card>();
     }
 
+    public Deck(List<Card> cards)
+    {
+        Cards = cards;
+    }
+
     public void AddCard(Card card)
     {
         if (Cards.Count < 20)
