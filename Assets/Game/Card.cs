@@ -10,9 +10,9 @@ public enum ActionType
 }
 
 [System.Serializable]
-public class Card
+public struct Card
 {
-    public ActionType Action { get; private set; }
+    public ActionType Action;
 
     public Card(ActionType action)
     {
