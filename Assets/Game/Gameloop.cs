@@ -14,13 +14,17 @@ public class DeckBuilder : MonoBehaviour
     public TextMeshProUGUI deckStatusText;
     public Button submitDeckButton;
 
+    public static DeckBuilder instance;
+
     [SerializeField]
-    private List<Card> playerDeck;
-    private const int MaxDeckSize = 20;
+    private Deck playerDeck;
+    public int MaxDeckSize = 20;
 
     void Start()
     {
-        playerDeck = new List<Card>();
+        instance = this;
+
+        playerDeck = new Deck();
 
         normalAttackButton.onClick.AddListener(() => AddCardToDeck(ActionType.NormalAttack));
         heavyAttackButton.onClick.AddListener(() => AddCardToDeck(ActionType.HeavyAttack));
@@ -34,23 +38,26 @@ public class DeckBuilder : MonoBehaviour
 
     private void AddCardToDeck(ActionType actionType)
     {
-        if (playerDeck.Count >= MaxDeckSize)
+        if (ActionType.Heal == actionType) {
+            MaxDeckSize++;
+        }
+        if (playerDeck.Cards.Count >= MaxDeckSize)
         {
             Debug.Log("Deck is already full!");
             return;
         }
 
-        playerDeck.Add(new Card(actionType));
+        playerDeck.AddCard(new Card(actionType));
         Debug.Log($"Added {actionType} to the deck.");
         UpdateDeckStatus();
     }
 
     private void UpdateDeckStatus()
     {
-        deckStatusText.text = $"Deck Size: {playerDeck.Count}/{MaxDeckSize}";
+        deckStatusText.text = $"Deck Size: {playerDeck.Cards.Count}/{MaxDeckSize}";
 
         // Optionally disable buttons if the deck is full
-        bool deckIsFull = playerDeck.Count >= MaxDeckSize;
+        bool deckIsFull = playerDeck.Cards.Count >= MaxDeckSize;
         normalAttackButton.interactable = !deckIsFull;
         heavyAttackButton.interactable = !deckIsFull;
         dodgeButton.interactable = !deckIsFull;
@@ -60,7 +67,7 @@ public class DeckBuilder : MonoBehaviour
 
     private void SubmitDeck()
     {
-        if (playerDeck.Count < MaxDeckSize)
+        if (playerDeck.Cards.Count < MaxDeckSize)
         {
             Debug.Log("Your deck is incomplete! Please select 20 cards.");
             return;
@@ -68,6 +75,6 @@ public class DeckBuilder : MonoBehaviour
 
         Debug.Log("Deck submitted successfully!");
         // Pass the deck to the game manager or combat system
-        GameManager.Instance.SetPlayerDeck(playerDeck);
+        GameManager.Instance.SetPlayerDeck(playerDeck.Cards);
     }
 }

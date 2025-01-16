@@ -4,7 +4,9 @@ public enum ActionType
     HeavyAttack,
     Dodge,
     Shield,
-    Heal
+    Heal, 
+    LoadHeavy,
+    SecondHeal
 }
 
 [System.Serializable]

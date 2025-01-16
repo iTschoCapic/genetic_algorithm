@@ -32,6 +32,11 @@ public class Combat
             case ActionType.Heal:
                 PlayerHealth += 5; // Exemple pour le premier tour de soin
                 break;
+            case ActionType.LoadHeavy:
+                break;
+            case ActionType.SecondHeal:
+                PlayerHealth += 3; // Exemple pour le premier tour de soin
+                break;
         }
 
         // Appliquer les effets de la carte de l'IA

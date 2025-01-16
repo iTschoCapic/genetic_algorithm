@@ -22,20 +22,25 @@ public class IA_Genetique : MonoBehaviour
         return population;
     }
 
-    public int EvaluateFitness(Deck iaDeck, Deck playerDeck)
+    public float EvaluateFitness(Deck iaDeck, Deck playerDeck)
     {
         var combat = new Combat();
+        int turnsSurvived = 0;
+
         for (int i = 0; i < 20; i++)
         {
             combat.ResolveTurn(playerDeck.Cards[i], iaDeck.Cards[i]);
+            turnsSurvived++;
             if (combat.IsGameOver())
                 break;
         }
 
-        return combat.PlayerHealth <= 0 ? 1 : 0; // 1 si l'IA gagne, 0 sinon
+        // Calculer la fitness en fonction de la santé restante et des tours joués
+        float fitness = (combat.PlayerHealth <= 0 ? 1f : 0f) + (turnsSurvived / 20f);
+        return fitness;
     }
 
-    public List<Deck> SelectParents(List<Deck> population, List<int> fitness)
+    public List<Deck> SelectParents(List<Deck> population, List<float> fitness)
     {
         var selected = new List<Deck>();
 
@@ -98,8 +103,8 @@ public class IA_Genetique : MonoBehaviour
 
     public void RunGeneticAlgorithm()
     {
-        int populationSize = 100;
-        int maxGenerations = 100;
+        int populationSize = 10000;
+        int maxGenerations = 100000;
         float mutationRate = 0.1f;
 
         var playerDeck = GameManager.Instance.GetPlayerDeckAsDeck(); // Récupère le deck du joueur
@@ -110,8 +115,10 @@ public class IA_Genetique : MonoBehaviour
             // Évaluer chaque deck
             var fitness = population.Select(deck => EvaluateFitness(deck, playerDeck)).ToList();
 
+            Debug.Log($"Génération {generation} : Meilleure fitness = {fitness.Max()} | Moyenne = {fitness.Average()}");
+
             // Vérifier si une solution parfaite est trouvée
-            if (fitness.Max() == 1)
+            if (fitness.Max() >= 1.5f) // Exemple de condition basée sur la fitness
             {
                 Debug.Log($"Solution trouvée à la génération {generation} !");
                 break;
@@ -122,6 +129,4 @@ public class IA_Genetique : MonoBehaviour
             population = CreateNewGeneration(parents, populationSize, mutationRate);
         }
     }
-
-
 }
