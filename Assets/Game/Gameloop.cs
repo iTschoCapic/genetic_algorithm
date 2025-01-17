@@ -38,9 +38,6 @@ public class DeckBuilder : MonoBehaviour
 
     private void AddCardToDeck(ActionType actionType)
     {
-        if (ActionType.Heal == actionType) {
-            MaxDeckSize++;
-        }
         if (playerDeck.Cards.Count >= MaxDeckSize)
         {
             Debug.Log("Deck is already full!");

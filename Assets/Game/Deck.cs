@@ -25,18 +25,21 @@ public class Deck : MonoBehaviour
 
             if (card.Action.Equals(ActionType.HeavyAttack))
             {
+                if (_numberOfTurns < Cards.Count + 2)
+                {
+                    return;
+                }
                 Cards.Add(new Card(ActionType.LoadHeavy));
                 Cards.Add(card);
-                Debug.Log("HeavyAttack");
             }
             else if (card.Action.Equals(ActionType.Heal))
             {
                 Cards.Add(card);
                 Cards.Add(new Card(ActionType.SecondHeal));
                 _numberOfTurns++;
-                Debug.Log("Heal + SecondHeal");
             }
-            else {
+            else
+            {
                 Cards.Add(card);
             }
         }

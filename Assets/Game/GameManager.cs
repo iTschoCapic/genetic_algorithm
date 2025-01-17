@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     {
         playerDeck = deck;
         Debug.Log("Player deck has been set!");
-        ia.RunGeneticAlgorithm();
+        ia.StartCoroutine(ia.RunGeneticAlgorithm());
     }
 
     public List<Card> GetPlayerDeck()
