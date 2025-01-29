@@ -7,6 +7,8 @@ using UnityEngine;
 
 public class IA_Genetique : MonoBehaviour
 {
+    public GIFPlayer gifPlayer; // Référence au script qui joue le GIF
+
     public List<Deck> GenerateInitialPopulation(int populationSize)
     {
         var population = new List<Deck>();
@@ -137,6 +139,8 @@ public class IA_Genetique : MonoBehaviour
 
     public IEnumerator RunGeneticAlgorithm()
     {
+        gifPlayer.StartGIF(); // Démarre le GIF
+
         int populationSize = 100;
         int maxGenerations = 1000;
         float mutationRate = 0.5f;
@@ -202,6 +206,8 @@ public class IA_Genetique : MonoBehaviour
             // Attendre une frame avant de passer à la prochaine génération
             yield return null;
         }
+
+        gifPlayer.StopGIF(); // Arrête le GIF
 
         Debug.Log($"Les résultats ont été écrits dans : {filePath}");
     }

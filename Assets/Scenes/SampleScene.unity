@@ -1319,6 +1319,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768468759}
   m_CullTransparentMesh: 1
+--- !u!1 &814202557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 814202558}
+  - component: {fileID: 814202561}
+  - component: {fileID: 814202560}
+  - component: {fileID: 814202559}
+  m_Layer: 5
+  m_Name: Gif
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &814202558
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814202557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.32, y: 0.32, z: 0.32}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1245224876}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 5, y: 189}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &814202559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814202557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b21ac3c42c3f44ba737daf39b64d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gifFrames:
+  - {fileID: 2800000, guid: 0394b9ca504c71c4296f56b15ba6d75b, type: 3}
+  - {fileID: 2800000, guid: dac62d4ec7f3dda46877bf396c7b3177, type: 3}
+  - {fileID: 2800000, guid: 5ebd1a00b3681094393d1184b29bfa90, type: 3}
+  frameRate: 0.3
+--- !u!114 &814202560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814202557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &814202561
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814202557}
+  m_CullTransparentMesh: 1
 --- !u!1 &826751016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,6 +1623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce496b0bb0fad04189057cac9cba7cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gifPlayer: {fileID: 814202559}
 --- !u!4 &870245821
 Transform:
   m_ObjectHideFlags: 0
@@ -1599,7 +1690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1643,7 +1734,7 @@ MonoBehaviour:
     m_Bottom: 0
   m_ChildAlignment: 0
   m_StartCorner: 0
-  m_StartAxis: 1
+  m_StartAxis: 0
   m_CellSize: {x: 155, y: 100}
   m_Spacing: {x: 10, y: 0}
   m_Constraint: 0
@@ -1746,6 +1837,7 @@ RectTransform:
   - {fileID: 971100013}
   - {fileID: 826751017}
   - {fileID: 768468760}
+  - {fileID: 814202558}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2013,7 +2105,10 @@ MonoBehaviour:
   healButton: {fileID: 708983374}
   deckStatusText: {fileID: 826751018}
   submitDeckButton: {fileID: 768468761}
-  playerDeck: []
+  playerDeck: {fileID: 0}
+  MaxDeckSize: 20
+  deckContentPanel: {fileID: 971100013}
+  cardUIPrefab: {fileID: 5881107819032541964, guid: 0bb4f906a6096634fbd27adc702d0a54, type: 3}
 --- !u!4 &1952194461
 Transform:
   m_ObjectHideFlags: 0
@@ -2042,6 +2137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ia: {fileID: 870245820}
+  deckPanel: {fileID: 971100012}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

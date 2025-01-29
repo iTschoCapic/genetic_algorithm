@@ -8,8 +8,12 @@ public class GameManager : MonoBehaviour
 
     private List<Card> playerDeck;
 
+    public GameObject deckPanel;
+
     void Awake()
     {
+        Screen.SetResolution(1920, 1080, true);
+
         if (Instance == null)
         {
             Instance = this;
@@ -41,4 +45,5 @@ public class GameManager : MonoBehaviour
         }
         return new Deck(playerDeck);
     }
+
 }

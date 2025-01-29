@@ -20,11 +20,23 @@ public class DeckBuilder : MonoBehaviour
     private Deck playerDeck;
     public int MaxDeckSize = 20;
 
+
+    [Header("Card Panel")]
+    [SerializeField] private Transform deckContentPanel;
+    [SerializeField] private GameObject cardUIPrefab;
+
+
     void Start()
     {
         instance = this;
 
         playerDeck = new Deck();
+
+        // Clear UI when initializing
+        foreach (Transform child in deckContentPanel)
+        {
+            Destroy(child.gameObject);
+        }
 
         normalAttackButton.onClick.AddListener(() => AddCardToDeck(ActionType.NormalAttack));
         heavyAttackButton.onClick.AddListener(() => AddCardToDeck(ActionType.HeavyAttack));
@@ -44,9 +56,22 @@ public class DeckBuilder : MonoBehaviour
             return;
         }
 
-        playerDeck.AddCard(new Card(actionType));
+        // Add card to deck
+        Card newCard = new Card(actionType);
+        playerDeck.AddCard(newCard);
         Debug.Log($"Added {actionType} to the deck.");
         UpdateDeckStatus();
+
+        // Spawn UI element
+        GameObject cardUI = Instantiate(cardUIPrefab, deckContentPanel);
+        if (cardUI.TryGetComponent<CardUI>(out var cardUIScript) && ( actionType != ActionType.SecondHeal || actionType != ActionType.LoadHeavy))
+        {
+            cardUIScript.Initialize(newCard);
+        }
+        else
+        {
+            Debug.LogError("CardUI component missing on prefab!");
+        }
     }
 
     private void UpdateDeckStatus()

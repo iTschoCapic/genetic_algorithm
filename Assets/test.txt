@@ -1,3821 +1,2523 @@
 Résultats de l'algorithme génétique :
 Génération 0
-Meilleure fitness : 25
-Vie finale du joueur : 41
-Vie finale de l'IA : 66
+Meilleure fitness : 20
+Vie finale du joueur : 53
+Vie finale de l'IA : 73
 Cartes du meilleur deck :
+- Heal
+- SecondHeal
+- NormalAttack
+- Dodge
+- LoadHeavy
+- HeavyAttack
 - LoadHeavy
 - HeavyAttack
 - Dodge
+- Heal
+- SecondHeal
 - NormalAttack
-- Shield
 - NormalAttack
-- Shield
+- LoadHeavy
+- HeavyAttack
 - LoadHeavy
 - HeavyAttack
 - Heal
 - SecondHeal
-- LoadHeavy
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- NormalAttack
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - Heal
 - SecondHeal
+- Dodge
+- Heal
+- SecondHeal
+- Dodge
 
 Génération 1
-Meilleure fitness : 25
-Vie finale du joueur : 41
-Vie finale de l'IA : 66
+Meilleure fitness : 22
+Vie finale du joueur : 63
+Vie finale de l'IA : 85
 Cartes du meilleur deck :
 - LoadHeavy
-- HeavyAttack
-- Dodge
-- NormalAttack
-- Shield
-- NormalAttack
-- Shield
 - LoadHeavy
 - HeavyAttack
-- Heal
-- SecondHeal
-- LoadHeavy
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- NormalAttack
-- Shield
 - Dodge
 - LoadHeavy
 - HeavyAttack
 - Heal
 - SecondHeal
+- SecondHeal
+- NormalAttack
+- Dodge
+- Dodge
+- Shield
+- HeavyAttack
+- SecondHeal
+- HeavyAttack
+- Heal
+- LoadHeavy
+- Dodge
+- Shield
+- LoadHeavy
 
 Génération 2
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 3
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 4
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 5
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 6
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 7
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 8
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 9
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 10
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 11
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 12
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 13
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 14
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 15
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 16
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 17
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 18
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 19
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 20
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 21
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 22
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 23
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 24
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 25
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 26
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 27
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 28
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 29
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 30
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 31
-Meilleure fitness : 56
+Meilleure fitness : 51
 Vie finale du joueur : 10
-Vie finale de l'IA : 66
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
 - HeavyAttack
-- HeavyAttack
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- SecondHeal
-- Shield
-- Dodge
-- LoadHeavy
-- HeavyAttack
 - NormalAttack
-- LoadHeavy
 - HeavyAttack
 - Heal
+- Heal
 - SecondHeal
-- HeavyAttack
 - Shield
-- NormalAttack
+- Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
 - HeavyAttack
 - LoadHeavy
+- HeavyAttack
+- NormalAttack
+- Dodge
+- SecondHeal
+- SecondHeal
 
 Génération 32
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 33
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 34
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 35
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 36
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 37
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 38
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 39
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 40
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 41
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 42
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 43
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 44
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 45
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 46
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 47
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 48
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 49
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 50
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 51
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 52
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 53
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 54
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 55
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 56
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 57
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 58
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 59
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 60
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 61
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 62
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 63
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 64
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 65
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 66
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 67
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 68
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 69
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 70
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 71
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 72
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 73
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 74
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 75
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 76
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 77
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 78
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 79
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 80
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 81
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 82
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 83
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 84
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 85
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
+Meilleure fitness : 51
+Vie finale du joueur : 10
+Vie finale de l'IA : 61
 Cartes du meilleur deck :
+- HeavyAttack
+- NormalAttack
+- HeavyAttack
+- Heal
 - Heal
 - SecondHeal
-- Heal
 - Shield
 - Heal
+- SecondHeal
+- LoadHeavy
+- LoadHeavy
+- HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- Heal
+- HeavyAttack
+- HeavyAttack
+- LoadHeavy
 - HeavyAttack
 - NormalAttack
-- Heal
+- Dodge
 - SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
 - SecondHeal
 
 Génération 86
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 87
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 88
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 89
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 90
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 91
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 92
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 93
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 94
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 95
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 96
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 97
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 98
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 99
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 100
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 101
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 102
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 103
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 104
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 105
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 106
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 107
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 108
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 109
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 110
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 111
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 112
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 113
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 114
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 115
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 116
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 117
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 118
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 119
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 120
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 121
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 122
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 123
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 124
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 125
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 126
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 127
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 128
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 129
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 130
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 131
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 132
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 133
-Meilleure fitness : 59
-Vie finale du joueur : 22
-Vie finale de l'IA : 81
-Cartes du meilleur deck :
-- Heal
-- SecondHeal
-- Heal
-- Shield
-- Heal
-- HeavyAttack
-- NormalAttack
-- Heal
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
-- Heal
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- NormalAttack
-- SecondHeal
-- Dodge
-- HeavyAttack
-- HeavyAttack
-- Dodge
-- SecondHeal
-
-Génération 134
-Meilleure fitness : 63
-Vie finale du joueur : -2
-Vie finale de l'IA : 61
+Meilleure fitness : 56
+Vie finale du joueur : 0
+Vie finale de l'IA : 56
 Cartes du meilleur deck :
 - NormalAttack
-- HeavyAttack
-- Heal
 - NormalAttack
+- Heal
 - HeavyAttack
 - HeavyAttack
+- HeavyAttack
+- HeavyAttack
+- NormalAttack
+- Dodge
 - LoadHeavy
+- Heal
+- HeavyAttack
+- Shield
+- HeavyAttack
+- SecondHeal
+- HeavyAttack
+- NormalAttack
+- SecondHeal
 - LoadHeavy
 - HeavyAttack
 - LoadHeavy
-- HeavyAttack
-- Dodge
-- HeavyAttack
-- LoadHeavy
-- HeavyAttack
-- LoadHeavy
-- Dodge
-- SecondHeal
-- HeavyAttack
-- HeavyAttack
+- Shield
 
